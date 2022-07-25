@@ -24,7 +24,7 @@ function Rectangle(width, height) {
   const obj = {};
   obj.width = width;
   obj.height = height;
-  obj.getArea = function () {
+  obj.getArea = function getArea() {
     return this.width * this.height;
   };
   return obj;
