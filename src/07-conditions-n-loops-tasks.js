@@ -27,7 +27,7 @@
  *  21 => 'Fizz'
  *
  */
- function getFizzBuzz(num) {
+function getFizzBuzz(num) {
   if (num % 3 === 0) {
     if (num % 5 === 0) return 'FizzBuzz';
     return 'Fizz';
@@ -529,7 +529,6 @@ function evaluateTicTacToePosition(position) {
 
   return undefined;
 }
-
 
 module.exports = {
   getFizzBuzz,
